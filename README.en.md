@@ -8,6 +8,16 @@ Chinese-language agent skills for writing and revising SillyTavern and BrainDanc
 
 This is a set of skills and utilities for creators, not a chat client. The writing guides are in Chinese. The agent performs creative work; the CLI tools read JSON and do not generate cards.
 
+## See the input and output
+
+These results come from running the existing query and audit tools on the included synthetic worldbook. The image and animation present actual CLI data as a readable documentation view; they do not depict SillyTavern or taberna's UI.
+
+![Step-by-step view of worldbook JSON, actual query output, and actual audit output](docs/media/worldbook-workflow.gif)
+
+<a href="docs/media/worldbook-overview.jpg"><img src="docs/media/worldbook-overview.jpg" width="360" alt="Synthetic worldbook and actual CLI results showing one entry with no audit errors or warnings" /></a>
+
+[Full-size still image](docs/media/worldbook-overview.jpg) · [Sample file](examples/worldbook.json). The commands below reproduce the data. Its file hash stayed unchanged after both commands; static checks do not validate platform imports or trigger behavior.
+
 ## Try without a model account
 
 With Git and Python installed (validated with Python 3.12), run:

@@ -13,6 +13,16 @@
 
 适合已有角色卡、需要整理世界书或希望按约束改稿的创作者。写作由支持技能的代理完成；本仓库不是聊天客户端，CLI 也不会自动生成角色卡。
 
+## 看看输入与输出
+
+使用仓库内的合成世界书运行实际查询和审计工具，得到下面的结果。图片与动画将 CLI 数据整理成便于阅读的文档展示，不是 SillyTavern 或 taberna 的界面。
+
+![世界书 JSON 输入、实际查询输出与实际审计输出的步骤演示](docs/media/worldbook-workflow.gif)
+
+<a href="docs/media/worldbook-overview.jpg"><img src="docs/media/worldbook-overview.jpg" width="360" alt="合成世界书及实际工具输出：找到一条条目，结构审计没有错误或警告" /></a>
+
+[查看静态全图](docs/media/worldbook-overview.jpg) · [样例文件](examples/worldbook.json)。下方命令可复现这些数据，检查前后文件哈希一致；静态检查不代表平台导入或触发测试通过。
+
 ## 先试一次，无需模型账户
 
 准备 Git 和 Python（验证环境为 Python 3.12），在终端执行：
