@@ -9,6 +9,8 @@ The main skill covers character behavior, opening scenes, world books, state, me
 ## Start here
 
 - [README](https://github.com/Marco0431/character-card-skills/blob/main/README.md): Installation, usage prompts, CLI examples, and a minimal world-book sample.
+- [English quick start](https://github.com/Marco0431/character-card-skills/blob/main/README.en.md): Runnable sample, installation layout, input formats, troubleshooting, and feedback.
+- [Synthetic worldbook example](https://github.com/Marco0431/character-card-skills/blob/main/examples/worldbook.json): One-entry local sample for the read-only query and audit tools.
 - [Main character-card skill](https://github.com/Marco0431/character-card-skills/blob/main/skills/campus-card-skill/SKILL.md): Authoring and revision workflow, supported tasks, and execution boundaries.
 - [SillyTavern world-book skill](https://github.com/Marco0431/character-card-skills/blob/main/skills/world-book-skill/SKILL.md): World-book editing guidance and read-only query entry point.
 - [Security and privacy scope](https://github.com/Marco0431/character-card-skills/blob/main/SECURITY.md): Tool behavior, input limits, removed executable content, and validation limitations.
